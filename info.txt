@@ -1,0 +1,4 @@
+Sitio para tomar background animados
+https://freefrontend.com/css-animated-backgrounds/
+
+https://freefrontend.com/bootstrap-hover-effects/
