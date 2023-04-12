@@ -2,7 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@500&family=Montserrat:wght@600&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
 
-
 body{
     display: flex;
 }
@@ -31,7 +30,7 @@ body{
     position: absolute;
     padding-top: 20%;
     justify-content: end;
-    font-size: 64px;
+    font-size: 54px;
     font-family: 'DM Sans';
     font-weight: bolder;
     color: aliceblue;
@@ -70,6 +69,92 @@ body{
 }
 
 
+.index__solucionesqueofrecemos{
+    position: absolute;
+    margin-top: 1600px;
+}   
+
+.texto__solucionesqueofrecemos{
+    font-family: 'Montserrat';
+    color: red;
+    text-align: center;
+    padding-bottom: 50px;
+}   
+
+
+.titulos__soluciones{
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+.texto__soluciones{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+#gif__ecomerce{
+    display: flex;
+    position: absolute;
+    width: 60px;
+    margin-left: 39%;
+    margin-top: 80px;
+}
+
+
+#gif__software{
+    display: flex;
+    position: absolute;
+    width: 60px;
+    margin-left: 37%;
+    margin-top: 193px;
+}
+
+
+#gif__appmobile{
+    display: flex;
+    position: absolute;
+    width: 60px;
+    margin-left: 36.5%;
+    margin-top: 310px;
+}
+
+
+.disenoweb{
+    position: absolute;
+    margin-top: 2200px;
+}
+
+.disenoweb__disenoweb{
+    font-family: 'Montserrat';
+    color: red;
+    height: 50px;
+    text-align: end;
+}
+
+.disenoweb__clientes{
+    font-size: 32px;
+    text-align: end;
+}
+
+
+.disenoweb__clientes{
+font-size: xx-large;
+font-weight: bolder;
+}
+
+
+#rounded{
+    width: 100px;
+}
+
+#rounded2{
+    width: 100px;
+}
+
 .footer{
     display: flex;
     position: fixed;
@@ -81,3 +166,5 @@ body{
     width: 50px;
 }
 
+
+  

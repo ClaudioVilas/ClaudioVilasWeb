@@ -54,11 +54,11 @@
 
   .animation-example {
     position: absolute;
-    top: 80%;
-    left: 60%;
+    top: 65%;
+    left: 15%;
     transform: translateX(-50%) translateY(-50%);
-    height: 20vmin;
-    width: 20vmin;
+    height: 70vmin;
+    width: 70vmin;
   }
   .animation-example > .item {
     position: absolute;
@@ -82,7 +82,7 @@
   .animation-example > .item > .line {
     height: 100%;
     width: calc(50% + 1px);
-    border-right: 2px dashed #5bc0eb;
+    border-right: 2px dashed #a5bdc7;
   }
   .animation-example > .item > .dot {
     position: absolute;
@@ -103,7 +103,7 @@
     height: 5%;
     width: 5%;
     background: #fff;
-    border: 2px solid #5bc0eb;
+    border: 2px solid #9ab4c0;
     border-radius: 50%;
   }
   .animation-example > .item > .circle {
@@ -114,7 +114,7 @@
     height: 20%;
     width: 20%;
     border-radius: 50%;
-    background: #5bc0eb;
+    background: #8fb1c0;
   }
   .animation-example > .item.-type2 {
     top: 0;
@@ -138,8 +138,8 @@
     width: 70%;
     height: 40%;
     border-right: none;
-    border-left: 2px dashed #5bc0eb;
-    border-bottom: 2px dashed #5bc0eb;
+    border-left: 2px dashed #558092;
+    border-bottom: 2px dashed #7192a0;
   }
   .animation-example > .item.-type2 > .dot {
     top: 30%;
@@ -208,10 +208,10 @@
   .animation-example > .center > .circle:nth-child(2) {
     height: 80%;
     width: 80%;
-    border: 2px solid #5bc0eb;
+    border: 2px solid #6b8b99;
   }
   .animation-example > .center > .circle:nth-child(3) {
     height: 50%;
     width: 50%;
-    background: #5bc0eb;
+    background: #638391;
   }
