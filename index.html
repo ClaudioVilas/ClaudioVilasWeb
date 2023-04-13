@@ -23,7 +23,7 @@
 
 <body> 
 
-
+<!-- NavBar y tecto de inicio -->
 <div class = "container-fluid header">
     <div class = "row">    
         <div class = 'animate__animated animate__rotateInDownLeft row navbar__navbar'>
@@ -33,21 +33,11 @@
             <div class = "col-2 navbar__consultas"> Consultas </div>
         </div>
         
-        <div class = "animate__animated animate__lightSpeedInRight row col header__slogan" > Agencia de Desarrollo y Diseno Web Internacional</div>
+        <div class = "animate__animated animate__lightSpeedInRight row col header__slogan" > Agencia de Desarrollo y Diseño Web Internacional</div>
         <div class = "animate__animated animate__lightSpeedInRight row col header__texto"> Mas de 7 anos de experiencia disenando y desarrollando experiencias web</div>
-        <div class = "row col header__nombre"> Claudio Vilas Web Design</div>
+        <div class = "row col header__nombre"> Claudio Vilas Web Programing</div>
     </div>
 </div>
-
-
-<!-- animacion medios circulos sobre la izquierda -->
-<!-- <div class = 'ripple-background'>
-    <div class='circle1 xxlarge shade1'></div>
-    <div class='circle1 xlarge shade2'></div>
-    <div class='circle1 large shade3'></div>
-    <div class='circle1 mediun shade4'></div>
-    <div class='circle1 small shade5'></div>
-</div> -->
 
 
 <!-- animacion de la bola sobre el margen derecho superiro -->
@@ -111,29 +101,27 @@
     </div>
 </div>
 
+<!-- contenedor de las cards animadas 5 cards -->
 
 <div class = "container-fluid servicios">
     <div class = "row">
-        <div class = "col servicio__texto"> ---Te Ofrecemos Los Siguientes Servicios ---
+        <div class = "col servicio__texto"> ... Te Ofrecemos Los Siguientes Servicios ...
         </div>
     </div>
 </div>
-
-<!-- contenedor de las cards animadas  -->
 <div class="container shadow-lg p-3 mb-5 bg-body-tertiary rounded cards__animated">
     <div class="card d-flex position-relative flex-column">
         <div class='imgContainer'>
-            <img src='images/disenoweb.jpg'>
+            <img src='images/disenoweb.jpg' class = "card__imagen">
         </div>
         <div class="content">
-            <h2>Diseno Web</h2>
+            <h2>Diseño Web</h2>
             <p>Diseñamos tu sitio web a tu medida, contemplando todos los conceptos UI-UX para que sea una experiencia unica</p>
         </div>
     </div>
-
     <div class="card d-flex position-relative flex-column">
         <div class='imgContainer'>
-            <img src='images/disenoaplicaciones.jpg'>
+            <img src='images/disenoaplicaciones.jpg' class = "card__imagen">
         </div>
         <div class="content">
             <h2>Sistema de Gestion de aplicaciones</h2>
@@ -143,7 +131,7 @@
 
     <div class="card d-flex position-relative flex-column">
         <div class='imgContainer'>
-            <img src='images/aplicacionesescritorio.jpg'>
+            <img src='images/aplicacionesescritorio.jpg' class = "card__imagen">
         </div>
         <div class="content">
             <h2>Apps de escritorio</h2>
@@ -151,9 +139,9 @@
         </div>
     </div>
 
-    <div class="card d-flex position-relative flex-column">
+    <div class="card d-flex position-relative flex-column" >
         <div class='imgContainer'>
-            <img src='images/aplicacionesmobile.jpg'>
+            <img src='images/aplicacionesmobile.jpg' class = "card__imagen">
         </div>
         <div class="content">
             <h2>Apps Mobile</h2>
@@ -163,7 +151,7 @@
 
     <div class="card d-flex position-relative flex-column">
         <div class='imgContainer'>
-            <img src='images/ecommerce.jpg'>
+            <img src='images/ecommerce.jpg' class = "card__imagen">
         </div>
         <div class="content">
             <h2>Web's E-commerce</h2>
@@ -173,10 +161,10 @@
 </div>
 
 
-
+<!-- Seccion de detalle tipo items, 3 items -->
 <div class = 'container-fluid shadow-lg p-3 mb-5 bg-body-tertiary rounded index__solucionesqueofrecemos'> 
     <div class= 'row'> 
-        <div class = 'col-12 texto__solucionesqueofrecemos'> ...Soluciones que Ofrecemos </div>
+        <div class = 'col-12 texto__solucionesqueofrecemos'> ... Soluciones que Ofrecemos ... </div>
 
         <img src = 'images/6172512.gif' id = 'gif__ecomerce'/><div class = "col-12 titulos__soluciones"> Webs E-commerce </div>
         <div class = "col texto__soluciones">Construimos y amplíamos tu negocio con una solución de comercio electrónico de la cual eres propietario al 100%.</div>
@@ -190,73 +178,80 @@
 </div>
 
 
+
+<!-- Seccion de nuevas cards animadas, 3 cards -->
 <div class="container-fluid disenoweb">
     <div class="row">
         <div class="col-10 disenoweb__disenoweb"> ... Disenos Web</div>
-        
-        <div class="col-10 disenoweb__clientes">Contaos con clientes en todas partes del mundo</div>
+        <div class="col-10 disenoweb__clientes">Contamos con clientes Satisfechos en todas partes del mundo</div>
     </div>
 </div>
-
-
-<!-- Nuevas cards -->
 <div class="nuevascards">
+        <div class="card2-container"> 
+                <div class="card2"><a href="hottub">
+                    <div class="card2--display">
+                    <img src = 'images/disenoweb.png' id = 'card2__photo'/>
+                    <i class="material-icons">Diseñamos</i>
+                    <!-- <h2>El mejor diseno web con la mejor expriencia de usuario</h2> -->
+                </div>
+                <div class="card2--hover">
+                    <h2>Diseñamos tu sitio</h2>
+                    <p>Contamos con los mejores disenñadores, para que no solo tengas una web, sino que tus clientes tenagn una experiencia unica al navegar por tu sitio. Con todos los conceptos de navegacion UI/UX.</p>
+                    <img src = "images/me-gusta.gif" id = "card2__logogif"/>
+                    <!-- <p class="link">Click to see project</p> -->
+                </div></a>
+                <div class="card2--border"></div>
+        </div>
+    </div>
     <div class="card2-container"> 
-            <div class="card2"><a href="hottub">
+        <div class="card2"><a href="hottub">
                 <div class="card2--display">
-                    <img src = 'images/tecnologia.png' id = 'card2__photo' />
-                    <i class="material-icons">Disenos Web</i>
-                <!-- <h2>El mejor diseno web con la mejor expriencia de usuario</h2> -->
+                    <img src = 'images/programacionweb.jpg' id = 'card2__photo' />
+                    <i class="material-icons">Programamos</i>
+                    <!-- <h2>El mejor diseno web con la mejor expriencia de usuario</h2> -->
                 </div>
                 <div class="card2--hover">
-                <h2>Disenamos y Programamos tu sitio</h2>
-                <p>Contamos con los mejores disenadores y los mejores programadores, para que no solo tengas una web, sino que tus clientes tenagn una experiencia unica al navegar por tu sitio.</p>
-                <img src = "images/me-gusta.gif" id="card2__photo2"/>
-                <!-- <p class="link">Click to see project</p> -->
+                    <h2>Programamos tu sitio</h2>
+                    <p>Contamos con los mejores programadores, para que tu sitio sea seguro, confiable y escalable. Asi podras descansar mientras tu negocio crece.</p>
+                    <img src = "images/computadora.gif" id = "card2__logogif"/>
+                    <!-- <p class="link">Click to see project</p> -->
                 </div></a>
-            <div class="card2--border"></div>
-            </div>
-        </div>
-        <div class="card2-container"> 
-            <div class="card2"><a href="hottub">
-                <div class="card2--display">
-                    <img src = 'images/tecnologia.png' id = 'card2__photo' />
-                    <i class="material-icons">Disenos Web</i>
+                <div class="card2--border"></div>
+        </div>    
+    </div>
+    <div class="card2-container"> 
+        <div class="card2"><a href="hottub">
+            <div class="card2--display">
+                <img src = 'images/hostinglogo2.png' id = 'card2__photo' />
+                <i class="material-icons">Hosting</i>
                 <!-- <h2>El mejor diseno web con la mejor expriencia de usuario</h2> -->
-                </div>
-                <div class="card2--hover">
-                <h2>Disenamos y Programamos tu sitio</h2>
-                <p>Contamos con los mejores disenadores y los mejores programadores, para que no solo tengas una web, sino que tus clientes tenagn una experiencia unica al navegar por tu sitio.</p>
-                <img src = "images/me-gusta.gif" id="card2__photo2"/>
-                <!-- <p class="link">Click to see project</p> -->
-                </div></a>
-            <div class="card2--border"></div>
             </div>
-        </div>
-        <div class="card2-container"> 
-            <div class="card2"><a href="hottub">
-                <div class="card2--display">
-                    <img src = 'images/tecnologia.png' id = 'card2__photo' />
-                    <i class="material-icons">Disenos Web</i>
-                <!-- <h2>El mejor diseno web con la mejor expriencia de usuario</h2> -->
-                </div>
-                <div class="card2--hover">
-                <h2>Disenamos y Programamos tu sitio</h2>
-                <p>Contamos con los mejores disenadores y los mejores programadores, para que no solo tengas una web, sino que tus clientes tenagn una experiencia unica al navegar por tu sitio.</p>
-                <img src = "images/me-gusta.gif" id="card2__photo2"/>
+            <div class="card2--hover">
+                <h2>Hosting y UpLoad</h2>
+                <p>Subimos tu sitio a los mejores servidores, asi tu sitio siempre respondera de forma rapida para que no tengas demoras y este siempre disponible.</p>
+                <img src = "images/diagrama.gif" id = "card2__logogif"/>
                 <!-- <p class="link">Click to see project</p> -->
-                </div></a>
+            </div></a>
             <div class="card2--border"></div>
-            </div>
-        </div>
-        </div>
-        </div>
         </div>
     </div>
 </div>
 
 
+<!-- Seccion de conoce como trabajamos -->
+<div class = "container-fluid workinginprogress">
+    <div class="row">
+        <div class = "col-12 text__workinginprogress">... Working In Progress ...</div>
+        <div class = "col-12 text__comotrabajamos">Conoce como trabajamos</div>
+    </div>
+</div>
 
+<p>Entendemos la necesidad</p>
+<p>Recopilamos informacion</p>
+<p>Planificamos y proyectamos</p>
+<p>Diseno el proyecto</p>
+<p>Desarrollamos y Programamos</p>
+<p>Exhibicion y testeo</p>
 
 
   
@@ -276,14 +271,7 @@
 
 <h3>Nuestros trabajos mar recientes</h3>
 
-<h1>Conoce como trabajamos</h1>
 
-<p>Entendemos la necesidad</p>
-<p>Recopilamos informacion</p>
-<p>Planificamos y proyectamos</p>
-<p>Diseno el proyecto</p>
-<p>Desarrollamos y Programamos</p>
-<p>Exhibicion y testeamos</p>
 
 <h3 class="probando">Contactenos, lo asesoraremos a la brevedad</h3> -->
 
