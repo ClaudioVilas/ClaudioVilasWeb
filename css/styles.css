@@ -194,6 +194,118 @@ body{
 }
 
 
+.foto__equipotrabajando1{
+    position: absolute;
+    display: flex;
+    margin-top: 3200px;
+    width: 550px;
+    height: 650px;
+    margin-left: 37%;
+}
 
+
+.foto__equipotrabajando1 {
+    animation-duration: 15s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+  }
+  
+  @keyframes slidein {
+    from {
+        transform: rotate(10deg);
+    }
+    to {
+        transform: rotate(0deg) rotate(-5deg);
+    }
+  }
+
+
+.foto__equipotrabajando2{
+    position: absolute;
+    display: flex;
+    margin-top: 3200px;
+    width: 550px;
+    height: 650px;
+    margin-left: 37%;
+    background-color: rgb(228, 227, 227);
+    /* transform: rotate(-55deg) */
+}
+
+
+.foto__equipotrabajando2 {
+    animation-duration: 60s;
+    animation-name: slidein2;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+  }
+  
+  @keyframes slidein2 {
+    from {
+        transform: rotate(-360deg);
+    }
+    to {
+        transform: rotate(0deg) rotate(5deg);
+    }
+  }
+
+
+
+
+.trabajamos__photo1{
+    display: flex;
+    position: absolute;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin-top: 1600px;
+    margin-left: 15%;
+
+}
+
+.trabajamos__texto{
+    display: flex;
+    position: absolute;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin-top: 1780px;
+    margin-left: 15%;
+    text-align: center;
+    font-family: 'Montserrat';
+    color: red;
+}
+
+
+.probandocirculo{
+    display: flex;
+    position: absolute;
+    border-radius: 100px;
+    width: 170px;
+    height: 170px;
+    margin-top: 3190px;
+    margin-left: 10%;
+    border-color: rgb(255, 93, 93);
+    border-width: 2px;
+    border-style: dotted;
+    margin-left: 15.6%;
+
+}
+
+.probandocirculo {
+    animation-duration: 90s;
+    animation-name: slidein3;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+  }
+  
+  @keyframes slidein3 {
+    from {
+        transform: rotate(-360deg);
+    }
+    to {
+        transform: rotate(0deg) rotate(5deg);
+    }
+  }
 
   
