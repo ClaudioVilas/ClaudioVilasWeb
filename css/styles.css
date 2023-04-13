@@ -283,7 +283,6 @@ body{
     width: 170px;
     height: 170px;
     margin-top: 3190px;
-    margin-left: 10%;
     border-color: rgb(255, 93, 93);
     border-width: 2px;
     border-style: dotted;
@@ -292,13 +291,13 @@ body{
 }
 
 .probandocirculo {
-    animation-duration: 90s;
-    animation-name: slidein3;
+    animation-duration: 70s;
+    animation-name: circulo;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
   }
   
-  @keyframes slidein3 {
+  @keyframes circulo {
     from {
         transform: rotate(-360deg);
     }
@@ -307,4 +306,278 @@ body{
     }
   }
 
+
   
+.trabajamos__photo2{
+    display: flex;
+    position: absolute;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin-top: 3500px;
+    margin-left: 20.6%;
+}
+
+.trabajamos__texto2{
+    display: flex;
+    position: absolute;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin-top: 3680px;
+    margin-left: 20.5%;
+    text-align: center;
+    font-family: 'Montserrat';
+    color: red;
+}
+
+
+.probandocirculo2{
+    display: flex;
+    position: absolute;
+    border-radius: 100px;
+    width: 170px;
+    height: 170px;
+    margin-top: 3490px;
+    border-color: rgb(255, 93, 93);
+    border-width: 2px;
+    border-style: dotted;
+    margin-left: 20%;
+
+}
+
+.probandocirculo2 {
+    animation-duration: 70s;
+    animation-name: circulo1;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+  }
+  
+  @keyframes circulo1 {
+    from {
+        transform: rotate(-360deg);
+    }
+    to {
+        transform: rotate(0deg) rotate(5deg);
+    }
+  }
+
+
+.trabajamos__photo3{
+    display: flex;
+    position: absolute;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin-top: 3700px;
+    margin-left: 33.5%;
+}
+
+.trabajamos__texto3{
+    display: flex;
+    position: absolute;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin-top: 3880px;
+    margin-left: 33.5%;
+    text-align: center;
+    font-family: 'Montserrat';
+    color: red;
+}
+
+
+.probandocirculo3{
+    display: flex;
+    position: absolute;
+    border-radius: 100px;
+    width: 170px;
+    height: 170px;
+    margin-top: 3690px;
+    border-color: rgb(255, 93, 93);
+    border-width: 2px;
+    border-style: dotted;
+    margin-left: 33%;
+
+}
+
+.probandocirculo3 {
+    animation-duration: 70s;
+    animation-name: circulo3;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+  }
+  
+  @keyframes circulo3 {
+    from {
+        transform: rotate(-360deg);
+    }
+    to {
+        transform: rotate(0deg) rotate(5deg);
+    }
+  }
+
+
+  .trabajamos__photo4{
+    display: flex;
+    position: absolute;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin-top: 3700px;
+    margin-left: 60.5%;
+}
+
+.trabajamos__texto4{
+    display: flex;
+    position: absolute;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin-top: 3880px;
+    margin-left: 60.5%;
+    text-align: center;
+    font-family: 'Montserrat';
+    color: red;
+}
+
+
+.probandocirculo4{
+    display: flex;
+    position: absolute;
+    border-radius: 100px;
+    width: 170px;
+    height: 170px;
+    margin-top: 3690px;
+    border-color: rgb(255, 93, 93);
+    border-width: 2px;
+    border-style: dotted;
+    margin-left: 60%;
+
+}
+
+.probandocirculo4 {
+    animation-duration: 70s;
+    animation-name: circulo4;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+  }
+  
+  @keyframes circulo3 {
+    from {
+        transform: rotate(-360deg);
+    }
+    to {
+        transform: rotate(0deg) rotate(5deg);
+    }
+  }
+
+
+  .trabajamos__photo5{
+    display: flex;
+    position: absolute;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin-top: 3500px;
+    margin-left: 70.6%;
+}
+
+.trabajamos__texto5{
+    display: flex;
+    position: absolute;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin-top: 3680px;
+    margin-left: 70.5%;
+    text-align: center;
+    font-family: 'Montserrat';
+    color: red;
+}
+
+
+.probandocirculo5{
+    display: flex;
+    position: absolute;
+    border-radius: 100px;
+    width: 170px;
+    height: 170px;
+    margin-top: 3490px;
+    border-color: rgb(255, 93, 93);
+    border-width: 2px;
+    border-style: dotted;
+    margin-left: 70%;
+
+}
+
+.probandocirculo5 {
+    animation-duration: 70s;
+    animation-name: circulo5;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+  }
+  
+  @keyframes circulo1 {
+    from {
+        transform: rotate(-360deg);
+    }
+    to {
+        transform: rotate(0deg) rotate(5deg);
+    }
+  }
+
+
+  .trabajamos__photo6{
+    display: flex;
+    position: absolute;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin-top: 3200px;
+    margin-left: 73.2%;
+}
+
+.trabajamos__texto6{
+    display: flex;
+    position: absolute;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin-top: 3380px;
+    margin-left: 73.1%;
+    text-align: center;
+    font-family: 'Montserrat';
+    color: red;
+}
+
+
+.probandocirculo6{
+    display: flex;
+    position: absolute;
+    border-radius: 100px;
+    width: 170px;
+    height: 170px;
+    margin-top: 3190px;
+    border-color: rgb(255, 93, 93);
+    border-width: 2px;
+    border-style: dotted;
+    margin-left: 72.6%;
+
+}
+
+.probandocirculo6 {
+    animation-duration: 70s;
+    animation-name: circulo6;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+  }
+  
+  @keyframes circulo {
+    from {
+        transform: rotate(-360deg);
+    }
+    to {
+        transform: rotate(0deg) rotate(5deg);
+    }
+  }
