@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 .cards__animated{
-    margin: 850px;
+    margin: -250px;
     padding: 0;
     font-family: 'Poppins', sans-serif;
     min-width: 100vw;
@@ -12,8 +12,7 @@
 
 }
 
-.container .card
-{
+.container .card{
     max-width: 300px;
     height: 215px;
     margin: 30px 10px;
@@ -21,12 +20,13 @@
     box-shadow: 0 5px 20px rgba(0,0,0,0.5);
     transition: 0.3s ease-in-out;
 }
+
+
 .container .card:hover
 {
     height: 450px;
 }
-.container .card .imgContainer
-{
+.container .card .imgContainer{
     position: relative;
     width:250px;
     height:250px;
@@ -35,6 +35,8 @@
     z-index: 1;
     box-shadow: 0 5px 20px rgba(0,0,0,0.2);
 }
+
+
 .container .card .imgContainer img
 {
     max-width: 100%;
