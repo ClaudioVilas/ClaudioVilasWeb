@@ -1,9 +1,11 @@
 .view {
   position: absolute;
-  top: 5%;
+  display: flex;
+  top: 15%;
   left: 90%;
   right: 0;
   perspective: 400;
+  z-index: 1 !important;
 }
 
 .plane {

@@ -8,20 +8,66 @@
     <link rel="stylesheet" href = "css/styles.css">
     <link rel="stylesheet" href = "css/circleanimation.css">
     <link rel="stylesheet" href = "css/globanimacion.css">
-    <link rel="stylesheet" href = "css/animatedspider.css">
+    <link rel="stylesheet" href = "css/globa2nimacion.css">
+    <link rel="stylesheet" href = "css/globa3nimacion.css">
+    <!-- <link rel="stylesheet" href = "css/animatedspider.css"> -->
     <link rel="stylesheet" href = "css/cardsanimation.css">
     <link rel="stylesheet" href = "css/cardsanimation2.css">
-
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Document</title>
 </head>
 
 <body> 
+
+<!-- NavBar -->
+<nav class="navbar navbar-dark  fixed-top">
+  <div class="container-fluid">
+    <!-- <a class="navbar-brand" href="#">Offcanvas dark navbar</a> -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <!-- <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div> -->
+      <div class="offcanvas-body justify-content-start">
+        <ul class="navbar-nav justify-content-left flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#serviciosqueofrecemos"> Servicios que ofrecemos </a>
+            <a class="nav-link" href="#solucionesqueofrecemos"> Soluciones que ofrecemos </a>
+            <a class="nav-link" href="#diseno">Diseños</a>
+            <a class="nav-link" href="#comotrabajamos">Como trabajamos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Contactanos
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item texto__dropdown__mail" href = 'https://wa.me/+5491154158647' target = '_blank' type = 'button'>
+                <img type="button" class="navbar__logowhatsapp2" data-bs-toggle="modal" src = "/images/whatsapp_14158.png" data-bs-target="#exampleModal"/>Whatsapp</a></li>
+
+              <li class="texto__dropdown__mail"><a class = "dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#"><img type="button" class="navbar__logogmail2" data-bs-toggle="modal" src = "/images/gmail.png" data-bs-target="#exampleModal"/>E-Mail</a></li>
+              <!-- <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+            </ul>
+          </li>
+        </ul>
+        <!-- <form class="d-flex mt-3" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-success" type="submit">Search</button> -->
+        </form>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
 
 <!-- NavBar y tecto de inicio -->
 <div class = "container-fluid header">
@@ -34,7 +80,7 @@
         </div>
         
         <div class = "animate__animated animate__lightSpeedInRight row col header__slogan" > Agencia de Desarrollo y Diseño Web Internacional</div>
-        <div class = "animate__animated animate__lightSpeedInRight row col header__texto"> Mas de 7 anos de experiencia disenando y desarrollando experiencias web</div>
+        <div class = "animate__animated animate__lightSpeedInRight row col header__texto"> Mas de 7 anos de experiencia diseñando y desarrollando experiencias</div>
         <div class = "row col header__nombre"> Claudio Vilas Web Programing</div>
     </div>
 </div>
@@ -51,6 +97,32 @@
     <div class="circle"></div>
     </div>
 </div>
+
+
+<!-- animacion de la bola sobre el margen izquierdo -->
+<div id="view2">
+    <div class="plane2 main2">
+    <div class="circle2"></div>
+    <div class="circle2"></div>
+    <div class="circle2"></div>
+    <div class="circle2"></div>
+    <div class="circle2"></div>
+    <div class="circle2"></div>
+    </div>
+</div>
+
+<!-- animacion de la bola sobre el margen medio -->
+<div id="view3">
+    <div class="plane3 main3">
+    <div class="circle3"></div>
+    <div class="circle3"></div>
+    <div class="circle3"></div>
+    <div class="circle3"></div>
+    <div class="circle3"></div>
+    <div class="circle3"></div>
+    </div>
+</div>
+
 
 <!-- Animacion tipo arana -->
 <div class = 'animation-example'>
@@ -101,11 +173,13 @@
     </div>
 </div>
 
-<!-- contenedor de las cards animadas 5 cards -->
 
+<!-- div para naveegacion interna -->
+<div id="serviciosqueofrecemos"></div>
+<!-- contenedor de las cards animadas 5 cards -->
 <div class = "container-fluid servicios">
     <div class = "row">
-        <div class = "col servicio__texto"> ... Te Ofrecemos Los Siguientes Servicios ...
+        <div class = "col servicio__texto" > ... Te Ofrecemos Los Siguientes Servicios ...
         </div>
     </div>
 </div>
@@ -161,6 +235,8 @@
 </div>
 
 
+<!-- div para naveegacion interna -->
+<div id="solucionesqueofrecemos"></div>
 <!-- Seccion de detalle tipo items, 3 items -->
 <div class = 'container-fluid shadow-lg p-3 mb-5 bg-body-tertiary rounded index__solucionesqueofrecemos'> 
     <div class= 'row'> 
@@ -179,6 +255,9 @@
 
 
 
+
+<!-- div para naveegacion interna -->
+<div id="diseno"></div>
 <!-- Seccion de nuevas cards animadas, 3 cards -->
 <div class="container-fluid disenoweb">
     <div class="row">
@@ -186,6 +265,7 @@
         <div class="col-10 disenoweb__clientes">Contamos con clientes Satisfechos en todas partes del mundo</div>
     </div>
 </div>
+
 <div class="nuevascards">
         <div class="card2-container"> 
                 <div class="card2"><a href="hottub">
@@ -238,6 +318,8 @@
 </div>
 
 
+<!-- div para naveegacion interna -->
+<div id="comotrabajamos"></div>
 <!-- Seccion de conoce como trabajamos -->
 <div class = "container-fluid workinginprogress">
     <div class="row">
@@ -247,11 +329,12 @@
 </div>
 
 
-
+<!-- foto con el background girando -->
 <div class = "foto__equipotrabajando2" ></div>
 <img src = "images/equipotrabajando1.jpg" class = "foto__equipotrabajando1" />
 
 
+<!-- ciculos con el texto y la foto de los servicios que prestamos -->
         <div class="probandocirculo"></div>
         <img src = "images/entendemosnecesidad.png" class = 'trabajamos__photo1'/><div class = 'trabajamos__texto'>Entendemos la necesidad</div>
 
@@ -271,35 +354,56 @@
         <img src = "images/mostramosinfo.jpg" class = 'trabajamos__photo6'/><div class = 'trabajamos__texto6'>Exhibicion y testeo</div>
 
 
+<div class="container-fluid footer">
+    <footer class = "row"> 
+        <div class = 'col-12 footer__logowhatsapp'>
+            <a  href = 'https://wa.me/+5491154158647' target = '_blank' type = 'button'> <img src = "/images/whatsapp_14158.png" class = 'footer__logowhatsapp' />
+            </a>
+        </div>
+        <!-- <div class="col-11 contenedorlista">
+            <ul class = "contenedorlista__general">
+                <li class="contenedorlista__proyecto">Contanos tu proyecto</li>
+                <li class="contenedorlista__ayudarte">Estamos para ayudarte</li>
+            </ul>
+        </div> -->
+        <!-- <div class = 'footer__logogmail'><img src = "/images/gmail.png" class = 'footer__logogmail' /> -->           
+    </footer>
+</div>
 
 
+<!-- Button trigger modal -->
+<img type="button" class="footer__logogmail" data-bs-toggle="modal" src = "/images/gmail.png"data-bs-target="#exampleModal">
+</img>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel"> Dejanos Tus Comentarios </h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
 
-<!-- 
-<h5>Estamos para ayudarte y asesorate</h5>
+            <form action="https://formspree.io/f/mlevoqkj" method="POST" id="form" name="_next" value="http://127.0.0.1:5500/index.html">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="email" required></input>
 
-<h1>Contanos tu proyecto, Estamos para ayudarte y darte una solucion</h1>
-
-<p>Creacion de sitios</p>
-<p>Desarrollo de Soluciones</p>
-<p>E-Commerce</p>
-<p>experiencias UI/Ux</p>
-<p>Sitios 100% Responsivos</p>
-<p>Optimizaciones y Posicionamiento SEO</p>
-
-
-<h3>Nuestros trabajos mar recientes</h3>
-
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Dejanos Tus comentarios" name="message" required></textarea>
+                
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary" data-bs-dismiss="modal"> Submit </button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"> Close </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 
 
-<h3 class="probando">Contactenos, lo asesoraremos a la brevedad</h3> -->
-
-<footer class = "footer"> 
-<a  href = 'https://wa.me/+5491154158647' target = '_blank' type = button> <img src = "/images/whatsapp_14158.png" class = 'footer__logowhatsapp' /> </a>
-</footer>
 
 
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+<script src="email.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>;
 </body>
 </html>

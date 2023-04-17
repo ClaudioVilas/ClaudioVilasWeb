@@ -6,6 +6,10 @@ body{
     display: flex;
 }
 
+.navbar{
+    background-color: black;
+}
+
 .header, .header__navbar{
     position: absolute;
     width: 100%;
@@ -151,19 +155,6 @@ body{
 
 #rounded2{
     width: 100px;
-}
-
-
-.footer{
-    display: flex;
-    position: fixed;
-    margin-left: 1%;
-    bottom: 0;
-}
-
-
-.footer__logowhatsapp{
-    width: 50px;
 }
 
 
@@ -348,12 +339,12 @@ body{
 
 .probandocirculo2 {
     animation-duration: 70s;
-    animation-name: circulo1;
+    animation-name: circulo2;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
   }
   
-  @keyframes circulo1 {
+  @keyframes circulo2 {
     from {
         transform: rotate(-360deg);
     }
@@ -463,7 +454,7 @@ body{
     animation-direction: alternate-reverse;
   }
   
-  @keyframes circulo3 {
+  @keyframes circulo4 {
     from {
         transform: rotate(-360deg);
     }
@@ -518,7 +509,7 @@ body{
     animation-direction: alternate-reverse;
   }
   
-  @keyframes circulo1 {
+  @keyframes circulo5 {
     from {
         transform: rotate(-360deg);
     }
@@ -573,7 +564,7 @@ body{
     animation-direction: alternate-reverse;
   }
   
-  @keyframes circulo {
+  @keyframes circulo6 {
     from {
         transform: rotate(-360deg);
     }
@@ -581,3 +572,112 @@ body{
         transform: rotate(0deg) rotate(5deg);
     }
   }
+  
+
+
+.footer{
+    position: fixed;
+    bottom: 0;
+}
+
+
+.footer__logowhatsapp{
+    width: 70px;
+    margin-left: 1%;
+    z-index: 1;
+}
+
+
+
+.contenedorlista{
+    display: flex;
+    position: absolute;
+    height: 65px;
+    /* width: 550px; */
+    font-size: 34px;
+    line-height: 46px;
+    font-weight: bolder;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    overflow: hidden;
+    justify-items: end;
+    justify-content: end;
+    background-color: aliceblue;
+    bottom: unset;
+}
+
+.contenedorlista__proyecto{
+    padding-top: 15px;
+}
+
+.contenedorlista__contactanos{
+    padding-top: 0px;
+
+}
+
+.contenedorlista__general{
+    list-style: none;
+    animation: cambiar 7s infinite;
+}
+
+@keyframes cambiar {
+    0% { margin-top: 0;} 
+    10% { margin-top: 0;} 
+
+    10% { margin-top: -10px;} 
+    60% { margin-top: -60px;} 
+
+    100% { margin-top: 0px;} 
+    }
+
+
+
+.footer__logogmail{
+    margin-left: 90%;
+    width: 80px;
+    position: fixed;
+    bottom: 0;
+}
+
+
+.probandoboton{
+    display: flex;
+    position: absolute;
+    margin-top: 3500px;
+}
+
+.navbar__logogmail2{
+    display: flex;
+    position: absolute;
+    width: 30px;
+    margin-left: 55px;
+}
+
+
+.navbar__logowhatsapp2{
+    display: flex;
+    position: absolute;
+    width: 30px;
+    margin-left: 85px;
+}
+
+#serviciosqueofrecemos{
+    margin-top: 900px;
+}
+
+
+#solucionesqueofrecemos{
+    margin-top: 1400px;
+}
+
+
+#diseno{
+    margin-top: 2100px;
+}
+
+
+#comotrabajamos{
+    margin-top: 2900px;
+}
