@@ -84,8 +84,15 @@
     color: #fde74c;
   }
 
-  #card2__photo{
+  #card1__photo{
     width: 250px;
+
+  }
+
+  #card2__photo{
+    width: 290px;
+    height: 150px;
+    margin-top: 60px;
   }
 
   #card2__logogif{

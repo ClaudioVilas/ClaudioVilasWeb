@@ -1,5 +1,6 @@
 const $form = document.querySelector ('#form')
 
+
 $form.addEventListener('submit', handdleSubmit)
 
 async function handdleSubmit (event) {
@@ -20,4 +21,7 @@ async function handdleSubmit (event) {
           })
     }
 }
+
+
+
 

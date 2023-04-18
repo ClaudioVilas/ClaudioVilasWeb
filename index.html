@@ -13,11 +13,18 @@
     <!-- <link rel="stylesheet" href = "css/animatedspider.css"> -->
     <link rel="stylesheet" href = "css/cardsanimation.css">
     <link rel="stylesheet" href = "css/cardsanimation2.css">
+
+    <!-- Link para hacer las animaciones de las letras de la pagina Animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- Link de boostrap para los estilos-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <title>Document</title>
 </head>
 
+
 <body> 
+
 
 <!-- NavBar -->
 <nav class="navbar navbar-dark  fixed-top">
@@ -48,9 +55,9 @@
             </a>
             <ul class="dropdown-menu dropdown-menu-dark">
               <li><a class="dropdown-item texto__dropdown__mail" href = 'https://wa.me/+5491154158647' target = '_blank' type = 'button'>
-                <img type="button" class="navbar__logowhatsapp2" data-bs-toggle="modal" src = "/images/whatsapp_14158.png" data-bs-target="#exampleModal"/>Whatsapp</a></li>
+                <img type="button" class="navbar__logowhatsapp2" data-bs-toggle="modal" src = "images/whatsapp_14158.png" data-bs-target="#exampleModal"/>Whatsapp</a></li>
 
-              <li class="texto__dropdown__mail"><a class = "dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#"><img type="button" class="navbar__logogmail2" data-bs-toggle="modal" src = "/images/gmail.png" data-bs-target="#exampleModal"/>E-Mail</a></li>
+              <li class="texto__dropdown__mail"><a class = "dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#"><img type="button" class="navbar__logogmail2" data-bs-toggle="modal" src = "images/gmail.png" data-bs-target="#exampleModal"/>E-Mail</a></li>
               <!-- <li>
                 <hr class="dropdown-divider">
               </li>
@@ -68,16 +75,15 @@
 </nav>
 
 
-
 <!-- NavBar y tecto de inicio -->
 <div class = "container-fluid header">
     <div class = "row">    
-        <div class = 'animate__animated animate__rotateInDownLeft row navbar__navbar'>
+        <!-- <div class = 'animate__animated animate__rotateInDownLeft row navbar__navbar'>
             <div class = "col-2 navbar__servicios"> Sericios </div>
             <div class = "col-2 navbar__nosotros"> Nosotros </div>
             <div class = "col-2 navbar__portfolio"> Portfolio </div>
             <div class = "col-2 navbar__consultas"> Consultas </div>
-        </div>
+        </div> -->
         
         <div class = "animate__animated animate__lightSpeedInRight row col header__slogan" > Agencia de Desarrollo y Diseño Web Internacional</div>
         <div class = "animate__animated animate__lightSpeedInRight row col header__texto"> Mas de 7 anos de experiencia diseñando y desarrollando experiencias</div>
@@ -110,6 +116,7 @@
     <div class="circle2"></div>
     </div>
 </div>
+
 
 <!-- animacion de la bola sobre el margen medio -->
 <div id="view3">
@@ -254,9 +261,7 @@
 </div>
 
 
-
-
-<!-- div para naveegacion interna -->
+<!-- div para navegacion interna -->
 <div id="diseno"></div>
 <!-- Seccion de nuevas cards animadas, 3 cards -->
 <div class="container-fluid disenoweb">
@@ -270,7 +275,7 @@
         <div class="card2-container"> 
                 <div class="card2"><a href="hottub">
                     <div class="card2--display">
-                    <img src = 'images/disenoweb.png' id = 'card2__photo'/>
+                    <img src = 'images/disenoweb.png' id = 'card1__photo'/>
                     <i class="material-icons">Diseñamos</i>
                     <!-- <h2>El mejor diseno web con la mejor expriencia de usuario</h2> -->
                 </div>
@@ -357,7 +362,7 @@
 <div class="container-fluid footer">
     <footer class = "row"> 
         <div class = 'col-12 footer__logowhatsapp'>
-            <a  href = 'https://wa.me/+5491154158647' target = '_blank' type = 'button'> <img src = "/images/whatsapp_14158.png" class = 'footer__logowhatsapp' />
+            <a  href = 'https://wa.me/+5491154158647' target = '_blank' type = 'button'> <img src = "images/whatsapp_14158.png" class = 'footer__logowhatsapp' />
             </a>
         </div>
         <!-- <div class="col-11 contenedorlista">
@@ -372,7 +377,7 @@
 
 
 <!-- Button trigger modal -->
-<img type="button" class="footer__logogmail" data-bs-toggle="modal" src = "/images/gmail.png"data-bs-target="#exampleModal">
+<img type="button" class="footer__logogmail" data-bs-toggle="modal" src = "images/gmail.png"data-bs-target="#exampleModal">
 </img>
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -389,7 +394,7 @@
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Dejanos Tus comentarios" name="message" required></textarea>
                 
                 <div class="modal-footer">
-                    <button type="submit" class="btn btn-primary" data-bs-dismiss="modal"> Submit </button>
+                    <button type="submit" class="btn btn-primary"> Submit </button>
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"> Close </button>
                 </div>
             </form>
