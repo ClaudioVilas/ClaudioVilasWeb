@@ -790,7 +790,9 @@ body{
 
 
 @media screen and (max-width: 375px) {
-    .body{
-        background-color: red ;
+
+
+    .foto__equipotrabajando1, .foto__equipotrabajando2, .photo2__solucionllc, .photo1__solucionllc{
+        display: none;
     }
 }
