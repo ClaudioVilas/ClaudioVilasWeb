@@ -114,7 +114,7 @@ body{
 
 .index__solucionesqueofrecemos{
     position: absolute;
-    margin-top: 1500px;
+    margin-top: 1700px;
 }   
 
 .texto__solucionesqueofrecemos{
@@ -169,7 +169,7 @@ body{
 
 .disenoweb{
     position: absolute;
-    margin-top: 2000px;
+    margin-top: 2300px;
 
 }
 
@@ -207,7 +207,7 @@ body{
 
 .working__full{
     position: absolute;
-    margin-top: 2700px;
+    margin-top: 3000px;
 }
 
 
@@ -733,7 +733,7 @@ body{
 
 .solucionllc{
     position: absolute;
-    margin-top: 3950px;
+    margin-top: 4250px;
     text-align: center;
 }
 
@@ -771,7 +771,7 @@ body{
 .photo1__solucionllc{
     display: flex;
     position: absolute;
-    margin-top: 3850px;
+    margin-top: 4250px;
     width: 450px;
     height: 400px;
     transform: rotate(-45deg);
@@ -781,7 +781,7 @@ body{
 .photo2__solucionllc{
     display: flex;
     position: absolute;
-    margin-top: 4100px;
+    margin-top: 4400px;
     margin-left: 70%;
     width: 500px;
     height: 400px;
