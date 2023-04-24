@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 .cards__animated{
-    margin: -250px;
-    padding: 0;
+    /* margin: -250px; */
+    margin-top: 100px;
     font-family: 'Poppins', sans-serif;
     min-width: 100vw;
     min-height: 100vh;
-    display:flex;
     justify-content: center;
     align-items: center;
+}
 
+
+.row__cars__animated{
+    justify-content: center;
 }
 
 .container .card{
@@ -22,10 +25,11 @@
 }
 
 
-.container .card:hover
-{
+.container .card:hover{
     height: 450px;
 }
+
+
 .container .card .imgContainer{
     position: relative;
     width:250px;
@@ -37,13 +41,13 @@
 }
 
 
-.container .card .imgContainer img
-{
+.container .card .imgContainer img {
     max-width: 100%;
     border-radius: 4px;
 }
-.container .card .content
-{
+
+
+.container .card .content {
     position: relative;
     margin-top: -140px;
     padding: 10px 15px;
@@ -54,13 +58,15 @@
     pointer-events: none;
     transition: 0.3s ease-in-out;
 }
-.container .card:hover .content
-{
+
+
+.container .card:hover .content {
     visibility: visible;
     opacity: 1;
     margin-top: -40px;
     transition-delay: 0.3s;
 }
+
 
 @media (max-width: 330px){
     .container .card .imgContainer{

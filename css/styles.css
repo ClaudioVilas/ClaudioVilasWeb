@@ -50,35 +50,29 @@ body{
 }
 
 
-.mono{
-    display: flex;
-    position: absolute;
-    width: 300px;
-    height: 200px;
-    margin-top: 300px;
-    margin-left: 130px;
+.cerebro2{
     z-index: 1;
+}
+
+.cubo__row{
+    justify-content: end;
+    padding-top: 90px;
 }
 
 
 .cubo{
-    display: flex;
-    position: absolute;
-    width: 200px;
-    height: 250px;
-    margin-top: 100px;
-    margin-left: 1500px;
-        z-index: 1;
+    margin-left: 2000px;
+    z-index: 1;
+}
+
+
+.cerebro__row{
+    justify-content: center;
+    padding-top: 0px;
 }
 
 
 .cerebro{
-    display: flex;
-    position: absolute;
-    width: 450px;
-    height: 350px;
-    margin-top: 550px;
-    margin-left: 800px;
     z-index: 1;
 }
 
@@ -101,45 +95,47 @@ body{
     font-size: 24px;
     font-family: 'DM Sans';
     font-weight: lighter;
-    color: aliceblue;
     bottom: 0;
 }
 
 .servicios{
-    display: flex;
     position: absolute;
     margin-top: 1000px;
+}
+
+
+.servicio__texto{
     justify-content: center;
-    letter-spacing: 2px;
-    font-family: 'Montserrat';
     color: red;
+    font-family: 'Montserrat';
+    letter-spacing: 2px;
 }
 
 
 .index__solucionesqueofrecemos{
     position: absolute;
-    margin-top: 1600px;
+    margin-top: 1500px;
 }   
 
 .texto__solucionesqueofrecemos{
     font-family: 'Montserrat';
     color: red;
     letter-spacing: 2px;
-    text-align: center;
     padding-bottom: 50px;
+    justify-content: center;
 }   
 
 
 .titulos__soluciones{
     font-size: xx-large;
     font-weight: bolder;
-    text-align: center;
+    justify-content: center;
     padding-bottom: 10px;
 }
 
 
 .texto__soluciones{
-    text-align: center;
+    justify-content: center;
     padding-bottom: 30px;
 }
 
@@ -173,8 +169,10 @@ body{
 
 .disenoweb{
     position: absolute;
-    margin-top: 2200px;
+    margin-top: 2000px;
+
 }
+
 
 .disenoweb__disenoweb{
     font-family: 'Montserrat';
@@ -207,11 +205,11 @@ body{
 }
 
 
-
-.workinginprogress{
+.working__full{
     position: absolute;
-    margin-top: 3000px;
+    margin-top: 2700px;
 }
+
 
 .text__workinginprogress{
     font-family: 'Montserrat';
@@ -219,6 +217,7 @@ body{
     text-align: center;
     letter-spacing: 2px;
 }
+
 
 .text__comotrabajamos{
     font-size: 32px;
@@ -231,7 +230,7 @@ body{
 .foto__equipotrabajando1{
     position: absolute;
     display: flex;
-    margin-top: 3200px;
+    margin-top: 200px;
     width: 550px;
     height: 650px;
     margin-left: 37%;
@@ -258,7 +257,7 @@ body{
 .foto__equipotrabajando2{
     position: absolute;
     display: flex;
-    margin-top: 3200px;
+    margin-top: 200px;
     width: 550px;
     height: 650px;
     margin-left: 37%;
@@ -292,7 +291,7 @@ body{
     border-radius: 100px;
     width: 150px;
     height: 150px;
-    margin-top: 3200px;
+    margin-top: 200px;
     margin-left: 16.2%;
 }
 
@@ -302,7 +301,7 @@ body{
     border-radius: 100px;
     width: 150px;
     height: 150px;
-    margin-top: 3380px;
+    margin-top: 380px;
     margin-left: 16.1%;
     text-align: center;
     font-family: 'Montserrat';
@@ -316,7 +315,7 @@ body{
     border-radius: 100px;
     width: 170px;
     height: 170px;
-    margin-top: 3190px;
+    margin-top: 190px;
     border-color: rgb(255, 93, 93);
     border-width: 2px;
     border-style: dotted;
@@ -348,7 +347,7 @@ body{
     border-radius: 100px;
     width: 150px;
     height: 150px;
-    margin-top: 3500px;
+    margin-top: 500px;
     margin-left: 20.6%;
 }
 
@@ -358,7 +357,7 @@ body{
     border-radius: 100px;
     width: 150px;
     height: 150px;
-    margin-top: 3680px;
+    margin-top: 680px;
     margin-left: 20.5%;
     text-align: center;
     font-family: 'Montserrat';
@@ -372,7 +371,7 @@ body{
     border-radius: 100px;
     width: 170px;
     height: 170px;
-    margin-top: 3490px;
+    margin-top: 490px;
     border-color: rgb(255, 93, 93);
     border-width: 2px;
     border-style: dotted;
@@ -403,7 +402,7 @@ body{
     border-radius: 100px;
     width: 150px;
     height: 150px;
-    margin-top: 3700px;
+    margin-top: 700px;
     margin-left: 33.5%;
 }
 
@@ -413,7 +412,7 @@ body{
     border-radius: 100px;
     width: 150px;
     height: 150px;
-    margin-top: 3880px;
+    margin-top: 880px;
     margin-left: 33.5%;
     text-align: center;
     font-family: 'Montserrat';
@@ -427,7 +426,7 @@ body{
     border-radius: 100px;
     width: 170px;
     height: 170px;
-    margin-top: 3690px;
+    margin-top: 690px;
     border-color: rgb(255, 93, 93);
     border-width: 2px;
     border-style: dotted;
@@ -458,7 +457,7 @@ body{
     border-radius: 100px;
     width: 150px;
     height: 150px;
-    margin-top: 3700px;
+    margin-top: 700px;
     margin-left: 60.5%;
 }
 
@@ -468,7 +467,7 @@ body{
     border-radius: 100px;
     width: 150px;
     height: 150px;
-    margin-top: 3880px;
+    margin-top: 880px;
     margin-left: 60.5%;
     text-align: center;
     font-family: 'Montserrat';
@@ -482,7 +481,7 @@ body{
     border-radius: 100px;
     width: 170px;
     height: 170px;
-    margin-top: 3690px;
+    margin-top: 690px;
     border-color: rgb(255, 93, 93);
     border-width: 2px;
     border-style: dotted;
@@ -513,7 +512,7 @@ body{
     border-radius: 100px;
     width: 150px;
     height: 150px;
-    margin-top: 3500px;
+    margin-top: 500px;
     margin-left: 70.6%;
 }
 
@@ -523,7 +522,7 @@ body{
     border-radius: 100px;
     width: 150px;
     height: 150px;
-    margin-top: 3680px;
+    margin-top: 680px;
     margin-left: 70.5%;
     text-align: center;
     font-family: 'Montserrat';
@@ -537,7 +536,7 @@ body{
     border-radius: 100px;
     width: 170px;
     height: 170px;
-    margin-top: 3490px;
+    margin-top: 490px;
     border-color: rgb(255, 93, 93);
     border-width: 2px;
     border-style: dotted;
@@ -568,7 +567,7 @@ body{
     border-radius: 100px;
     width: 150px;
     height: 150px;
-    margin-top: 3200px;
+    margin-top: 200px;
     margin-left: 73.2%;
 }
 
@@ -578,7 +577,7 @@ body{
     border-radius: 100px;
     width: 150px;
     height: 150px;
-    margin-top: 3380px;
+    margin-top: 380px;
     margin-left: 73.1%;
     text-align: center;
     font-family: 'Montserrat';
@@ -592,7 +591,7 @@ body{
     border-radius: 100px;
     width: 170px;
     height: 170px;
-    margin-top: 3190px;
+    margin-top: 190px;
     border-color: rgb(255, 93, 93);
     border-width: 2px;
     border-style: dotted;
@@ -728,13 +727,13 @@ body{
 
 #solucionllc{
     position: absolute;
-    margin-top: 4000px;
+    margin-top: 5000px;
 }
 
 
 .solucionllc{
     position: absolute;
-    margin-top: 4100px;
+    margin-top: 3950px;
     text-align: center;
 }
 
@@ -772,7 +771,7 @@ body{
 .photo1__solucionllc{
     display: flex;
     position: absolute;
-    margin-top: 4100px;
+    margin-top: 3850px;
     width: 450px;
     height: 400px;
     transform: rotate(-45deg);
@@ -782,9 +781,16 @@ body{
 .photo2__solucionllc{
     display: flex;
     position: absolute;
-    margin-top: 4300px;
+    margin-top: 4100px;
     margin-left: 70%;
     width: 500px;
     height: 400px;
     transform: rotate(40deg);
+}
+
+
+@media screen and (max-width: 375px) {
+    .body{
+        background-color: red ;
+    }
 }
