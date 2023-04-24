@@ -791,14 +791,83 @@ body{
 
 @media screen and (max-width: 375px) {
 
-    .index__solucionesqueofrecemos, .disenoweb,.working__full{
+    .navbar{
+        width: 370px;
+    }
+
+    .header__slogan, .header__texto, .header__nombre{
+        justify-content: center;
+        z-index: 1;
+    }
+
+    .header__texto{
+        padding-top: 350px;
+    }
+
+
+    #header__nombre{
+        display: none;
+    }
+
+
+    #cuboski{
+        height: 150px;
+        width: 200px;
+        margin-top: 360px;
+    }
+
+
+    #cerebroskianimado{
+        margin-top: -550px;
+        height: 100px;
+        width: 200px;
+        margin-left: 190px;
+        padding-left: 15px;
+    }
+
+
+    #cerebroski{
+        height: 100px;
+        width: 200px;
+        margin-top: -130px;
+    }
+
+
+    .servicios{
+        margin-top: 700px;
+    }
+
+
+    .servicio__texto{
+        text-align: center;
+    }
+
+
+    .index__solucionesqueofrecemos{
+        margin-top: 2400px;
+        text-align: center;
+    }
+    
+
+    .solucionllc{
+        margin-top: 3100px;
+    }
+
+
+    .footer__logowhatsapp{
+        margin-left: 0px;
+    }        
+
+
+
+
+     .disenoweb,.working__full{
         display: none;
     }
     .foto__equipotrabajando1, .foto__equipotrabajando2, .photo2__solucionllc, .photo1__solucionllc{
         display: none;
     }
-
-    .footer, .footer__logogmail{
+    .footer__logogmail{
         display: none;
     }
 }
