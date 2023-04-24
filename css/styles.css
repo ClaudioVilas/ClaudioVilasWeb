@@ -791,8 +791,8 @@ body{
 
 @media screen and (max-width: 375px) {
 
-    .navbar{
-        width: 370px;
+    #navbar {
+    display: none;
     }
 
     .header__slogan, .header__texto, .header__nombre{
@@ -818,7 +818,7 @@ body{
 
 
     #cerebroskianimado{
-        margin-top: -550px;
+        margin-top: -600px;
         height: 100px;
         width: 200px;
         margin-left: 190px;
