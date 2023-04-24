@@ -859,15 +859,14 @@ body{
     }        
 
 
-
+    .footer__logogmail{
+margin-left: 310px;
+    }
 
      .disenoweb,.working__full{
         display: none;
     }
     .foto__equipotrabajando1, .foto__equipotrabajando2, .photo2__solucionllc, .photo1__solucionllc{
-        display: none;
-    }
-    .footer__logogmail{
         display: none;
     }
 }
